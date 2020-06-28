@@ -42,7 +42,7 @@ if __name__ == "__main__":
 		print("press 1 for display")
 		print("press 2 for push")
 		print("press 3 for pop")
-		print("press 9 for exit")
+		print("press 0 for exit")
 		print()
 		n = int(input())
 		if n==1:
@@ -62,7 +62,7 @@ if __name__ == "__main__":
 			except:
 				print("can\'t operate")
 				continue
-		if n==9:
+		if n==0:
 			break
 
 
