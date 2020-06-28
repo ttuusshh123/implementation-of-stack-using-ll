@@ -32,17 +32,7 @@ class Stack:
 		else:
 			self.head = self.head.link
 
-# s = Stack()
-# l = [3,6,78,45,29]
-# for i in l:
-# 	s.push(i)
-# t = s
-# t.pop()
-# t = Stack()
-# t.push(67)
-# t.display_top_to_bottom()
-# print("*************")
-# s.display_top_to_bottom()
+
 
 ###########################################################
 if __name__ == "__main__":
